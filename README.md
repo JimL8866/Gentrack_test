@@ -14,14 +14,9 @@
 7). created automated tests with edge cases and verified code works.
 
 # 2. What wasn't done:
-1). add 900 row as trailer for each csv file.
+1). None
 
 # 3. What would be done with more time:
-1). add 900 row as trailer for each csv file.
+1). created more testing cases to test code.
 
-2). created more testing cases to test code.
-
-3). format each row in csv file
-
-# update:
-fixed code and added 900 row as the trailer for each csv file
+2). format each row in csv file
