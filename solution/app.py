@@ -25,6 +25,7 @@ def create_csv(xml_file):
                 row_200 = line
                 csv_filename = row_200.split(",")[1] + ".csv"
                 if csv_file:
+                    csv_file.write("900")
                     csv_file.close()
                 csv_file = open(csv_filename, "w", encoding="utf-8")
                 csv_file.write(csv_header)
@@ -37,6 +38,7 @@ def create_csv(xml_file):
                     csv_file.write(line)
                     csv_file.write("\n")
             elif line.strip().startswith("900"):
+                csv_file.write("900")
                 break
         csv_file.close()
         return "CSV files generated successfully!"

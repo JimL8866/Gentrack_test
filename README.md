@@ -22,3 +22,6 @@
 2). created more testing cases to test code.
 
 3). format each row in csv file
+
+# update:
+fixed code and added 900 row as the trailer for each csv file
