@@ -13,6 +13,8 @@
 
 7). created automated tests with edge cases and verified code works.
 
+8). run app.py in solution folder to convert xml file to seperate csv files. run test.py in tests folder to see all testing cases passed.
+
 # 2. What wasn't done:
 1). None
 
